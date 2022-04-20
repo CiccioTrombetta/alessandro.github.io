@@ -1,0 +1,21 @@
+<header class="five columns">
+  <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" class="me">
+  <h1>{{ .Site.Params.author }}</h1>
+  <p>
+    <a href="tel:{{ .Site.Params.tel_full }}">{{ .Site.Params.tel }}</a>
+  </p>
+  <address>
+    <a>
+      {{ .Site.Params.address }}<br/>
+      {{ .Site.Params.postcode }}<br/>
+      {{ .Site.Params.city }}<br/>
+      {{ .Site.Params.country }}
+    </a>
+  </address>
+  <p>
+    <a href="{{ .Site.Params.email_full }}">{{ .Site.Params.email }}</a>
+  </p>
+  <p>
+    <a href="http://linkedin.com/{{ .Site.Params.linkedin }}"><i class="fa fa-linkedin"></i>&nbsp;LinkedIn</a>
+  </p>
+</header>

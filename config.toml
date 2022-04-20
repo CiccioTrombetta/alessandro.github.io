@@ -1,0 +1,24 @@
+languageCode = "it-IT"
+layoutdir = "layouts"
+publishdir = "public"
+baseurl = "http://example.com/"
+googleAnalytics = ""
+theme = "hugo-vitae"
+
+[params]
+  author = "Alessandro Esposito"
+  title = "CV di Alessandro Esposito"
+  description = "CV di Alessandro Esposito"
+  avatar = "_UFFICIALE_2022.png"
+  email = "alessandroesposito.treviso@yahoo.it"
+  email_full = "mailto:alessandroesposito.treviso@yahoo.it"
+  linkedin = "alessandroespositotv"
+  tel = "3472368724"
+  tel_full = "3472368724"
+  address = "Via Capitello 3, Quinto di Treviso"
+  postcode = "31100"
+  city = "Treviso"
+  country = "Italia"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
